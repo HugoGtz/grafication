@@ -36,6 +36,15 @@ public class Puntaje : MonoBehaviour {
         {
             Fondo1.SetActive(false);
         }
+        if (puntuacion == 15)
+        {
+            Fondo1.SetActive(true);
+        }
+
+        if (puntuacion == 20)
+        {
+            Fondo1.SetActive(false);
+        }
     }
 	
 	// Update is called once per frame
