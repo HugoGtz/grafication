@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\ActivarGameover.cs" />
      <Compile Include="Assets\Actualizar.cs" />
+     <Compile Include="Assets\CambiarEscenario.cs" />
      <Compile Include="Assets\NotificationCenter.cs" />
      <Compile Include="Assets\Prefaps\ControladorPersonaje.cs" />
      <Compile Include="Assets\Puntaje.cs" />

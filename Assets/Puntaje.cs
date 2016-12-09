@@ -4,6 +4,7 @@ using System.Collections;
 public class Puntaje : MonoBehaviour {
 	public int puntuacion = 0;
 	public TextMesh marcador;
+    public GameObject Fondo1;
 	
 	// Use this for initialization
 	void Start () {
@@ -27,7 +28,15 @@ public class Puntaje : MonoBehaviour {
 	
 	void ActualizarMarcador(){
 		marcador.text = puntuacion.ToString();
-	}
+        if (puntuacion == 5) {
+            Fondo1.SetActive(true);
+        }
+
+        if (puntuacion == 10)
+        {
+            Fondo1.SetActive(false);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
